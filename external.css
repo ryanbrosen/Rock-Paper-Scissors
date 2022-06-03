@@ -1,0 +1,99 @@
+
+
+@font-face {
+    font-family: Anime ;
+    src: url(fonts/font1.ttf);
+}
+
+html { 
+    background: url(hunterx.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .container {
+    height: 200px;
+    position: relative;
+
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  #SCISSORS {
+    margin-left: 15px;
+    margin-right: auto;
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  
+  #PAPER {
+    margin-left: 15px;
+    margin-right: auto;
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #ROCK {
+    margin-left: 15px;
+    margin-right: 0px;
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+  }
+
+.butt{
+    font-family: Anime;
+    background-color: rgba(255, 0, 0, 0.386);
+   height: auto;
+   width: auto;
+   font-size: 40px;
+}
+
+.winner{
+    margin-top: 100px;
+    padding: 90px;
+    margin-left: 15px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: Anime;
+   height: auto;
+   width: auto;
+   font-size: 40px;
+
+}
+
+.score{
+    text-align: center;
+
+}
+
+
+
+.container2 {
+    font-family: Anime;
+    height: 500px;
+    margin-bottom: 200px;
+    position: relative;
+    background-color: rgba(32, 90, 12, 0.907);
+    border-radius: 25px;
+
+
+  }
